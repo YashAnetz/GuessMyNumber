@@ -21,6 +21,7 @@ secret();
 document.querySelector(".again").addEventListener('click', function ()
 {
   secret()
+  document.querySelector(".number").textContent= "?";
   
 
   document.querySelector(".score").textContent = score;
