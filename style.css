@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+* {
+  padding: 0;
+  box-sizing: inherit;
+
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: white;
+  background-color: rgb(29, 29, 29);
+  
+  
+}
+
+
+
+header {
+  position: relative;
+  height: 30vh;
+  border-bottom: 7px solid white;
+}
+
+main {
+  height: 65vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  align-items: center;
+}
+
+.right {
+  width: 60rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  right: 5rem;
+  text-align: right;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  background: white;
+  color: rgb(41, 43, 43);
+  font-size: 6rem;
+  width: 20rem;
+  padding: 3rem 0rem;
+  border-radius: 2cm;
+  text-align: center;
+  position: absolute;
+  top: 265px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.guess {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+}
+
+.submit {
+  background-color: green;
+  border: 4px solid white;
+  font-family: inherit;
+  font-size: 4rem;
+  padding: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+  border-radius: 2cm;
+}
+.submit:hover {
+  background-color: white;
+}
+
+.submit:active {
+  background-color: teal;
+}
+
+.btn {
+  border: none;
+  background-color: green;
+  color: black;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.btn:active {
+  background-color: teal;
+}
+
+.message {
+  margin-bottom: 3rem;
+  height: 3rem;
+}
+
+.Lscore {
+  margin-bottom: 2rem;
+}
+
+.Name {
+  position: absolute;
+  bottom: 5rem;
+  color: black;
+  background-color: bisque;
+  padding: 20px;
+  border-radius: 2cm;
+  align-items: center;
+  width: 10cm;
+  text-align: center;
+}
+
+
+.in {
+  width: 25rem;
+  padding: 100 rem;
+  margin: 20px;
+  height: 8rem;
+  text-align: center;
+  font-family: inherit;
+  border-radius: 2cm;
+  background-color: rgb(29, 29, 29);
+  border-width: 5px;
+  color: white;
+  font-size: 2rem;
+}
+
+.again {
+  border-radius: 2cm;
+}
+
+video {
+ 
+ 
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  
+  
+  
+}
